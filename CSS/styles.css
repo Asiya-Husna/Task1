@@ -129,7 +129,7 @@
 
 .workspace-content {
     position: relative;
-    top: -128px;
+    top: -100px;
 }
 
 .workspace-content .img-workspace1 {
@@ -556,7 +556,7 @@
     }
     .workspace-content {
         position: relative;
-        top: -86px;
+        top: -40px;
     }
     .agency-img1 {
         width: 130px;
@@ -609,6 +609,9 @@
         bottom: 15px;
         left: 8px;
         
+    }
+    .img-flu{
+        width: 300px;
     }
     .agency-img1{
         display: none;
