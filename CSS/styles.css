@@ -1,0 +1,635 @@
+.navbar-content li:hover {
+    border-bottom: 1px solid red;
+}
+
+.bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.4)), url(/images/home.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.cust-height {
+    height: 80vh;
+}
+
+.btn-cust {
+    background-color: rgba(248, 120, 120, 0.911);
+}
+
+.home-cust {
+    line-height: 60px;
+    font-weight: 500;
+}
+
+/* Pages */
+.img-flu {
+    position: absolute;
+}
+
+.img-thumb {
+    position: relative;
+    top: 40px;
+    left: 300px;
+}
+
+.pages {
+    position: relative;
+    top: 10px;
+}
+
+/* Services */
+.services-content h2 {
+    width: 40%;
+}
+
+.service-circle {
+    /* display: inline-block; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.icon-text {
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form input {
+    width: 42%;
+    border-radius: 3px;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    font-size: 12px;
+
+}
+
+/* Shop */
+.shop-spacing {
+    padding-left: 160px;
+}
+
+.img-shop {
+    height: 450px;
+}
+
+
+/* Workspace */
+.ht-workspace {
+    height: 70vh;
+}
+
+.bg-workspace {
+    background-size: cover;
+    /* background-image: linear-gradient(to right, gray, black); */
+    background-image: linear-gradient(to right, rgba(36, 35, 35, 0.9) 15%, rgb(43, 42, 42) 45%), url(/Images/services.jpg);
+    background-size: cover;
+}
+
+.workspace-flex {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workspace1 {
+    width: 50%;
+
+
+}
+
+.workspace1 p {
+    text-align: right;
+    padding-right: 160px;
+}
+
+.workspace1 h1 {
+    font-size: 80px;
+    text-align: right;
+    padding-right: 140px;
+}
+
+.workspace2 {
+    width: 50%;
+    padding: 0 40px;
+    border-left: 1px solid rgb(83, 82, 82);
+
+}
+
+.workspace2 p {
+    color: rgb(83, 82, 82);
+}
+
+.workspace-content {
+    position: relative;
+    top: -128px;
+}
+
+.workspace-content .img-workspace1 {
+    height: 440px;
+    /* width: 290px; */
+    border-radius: 5px;
+
+}
+
+.workspace-content .img-workspace2 {
+    height: 440px;
+    width: 424px;
+    border-radius: 5px;
+}
+
+.small-div {
+    background-color: #f2f2f2;
+    border-radius: 0px 5px 5px 0px;
+    position: absolute;
+    bottom: 25px;
+}
+
+.col-div {
+    position: relative;
+}
+
+.service-circle1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: -17px;
+    margin-left: 160px;
+}
+
+/* Agency Promotion */
+
+.agency-img2 {
+    position: relative;
+    top: 120px;
+    left: 10px;
+}
+
+.agency-img3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 266px;
+}
+
+.agency-parent-position {
+    position: relative;
+    height: 550px;
+    padding-left: 50px;
+}
+
+.agency-content-2 {
+
+    padding: 10px;
+    border-radius: 3px 0 0 3px;
+    border-left: 3px solid red;
+
+}
+
+.agency-content-1 {
+    background-color: rgb(241, 234, 234);
+}
+
+.agency-content {
+    padding: 5px 0;
+    background-color: #fcfcfc;
+}
+
+/* FAQ */
+.img-faq {
+    height: 270px;
+    width: 280px;
+}
+
+.progress-bar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: red;
+    background:
+        radial-gradient(closest-side, #f2f2f2 90%, transparent 95% 100%),
+        conic-gradient(red 7%, white 0);
+}
+
+.progress-bar1::before {
+    content: "7%";
+}
+
+.progress-bar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: red;
+    background:
+        radial-gradient(closest-side, #f2f2f2 90%, transparent 95% 100%),
+        conic-gradient(red 4%, white 0);
+}
+
+.progress-bar2::before {
+    content: "4%";
+}
+
+.small-text {
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: 500;
+    color: black;
+}
+
+.envato {
+    font-size: 30px;
+    color: #d2d4d6;
+    font-weight: 500;
+    font-family: monospace;
+
+}
+
+/* Testimonial */
+/* .ht-testimonial{
+    height: 350px;
+  } */
+.bg-workspace {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(36, 35, 35, 0.9) 15%, rgb(43, 42, 42) 45%), url(/Images/services.jpg);
+
+}
+
+.testimonial {
+    height: 190px;
+    width: 425px;
+    background-color: #d2d4d6;
+    border-radius: 10px;
+    border-top: 10px solid red;
+    position: relative;
+}
+
+.img-test {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -33px;
+    left: 30px;
+}
+
+.small-test {
+    font-size: 12px;
+    line-height: 10px;
+
+}
+
+.testimonial1 {
+    height: 190px;
+    width: 324px;
+    background-color: #d2d4d6;
+    border-radius: 10px 0 0 10px;
+    border-top: 10px solid red;
+    position: relative;
+}
+
+/* News */
+.bg-news {
+    background-color: #d4cbcb;
+}
+
+.img-news {
+    height: 200px;
+}
+
+.news-content {
+    width: 230px;
+    border-left: 1px solid #fcfcfc;
+    position: relative;
+    bottom: 36px;
+    left: 36px;
+    border-radius: 5px;
+}
+
+.col-button {
+    width: 12px;
+    height: 19px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+}
+
+.cont-position {
+    position: relative;
+    bottom: 164px;
+
+}
+
+.bg-newsform {
+    background-color: #f2f2f2;
+}
+
+.img-contact {
+    height: 380px;
+    border-radius: 8px 0 0 0;
+}
+
+.ht-red {
+    height: 180px;
+    background-color: rgb(197, 30, 30);
+}
+
+/* footer */
+.row-bg {
+    background-color: black;
+}
+
+.flex-footer {
+    display: flex;
+}
+
+.form-footer {
+    width: 100%;
+    background-color: black;
+    color: #f2f2f2;
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.service-circle2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+
+
+/* Large Device */
+
+@media(min-width:993px) {
+
+    .circle {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: red;
+        position: relative;
+
+    }
+
+    .align-top {
+        position: absolute;
+        top: 20px;
+        right: 151px;
+        margin-bottom: 20px;
+    }
+
+    .bg-shop {
+        background-color: #f2f2f2;
+        background-image: linear-gradient(to right, #f2f2f2 75%, white 25%);
+        padding-top: 100px;
+    }
+}
+
+/* Medium Device */
+@media (max-width:992px) {
+    .media-head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .bg-img {
+        height: 150vh;
+    }
+
+    .cust-height {
+        height: 80vh;
+    } */
+
+    .media-inline {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+
+    }
+
+    .media-inline li {
+        padding-right: 30px;
+    }
+
+    .media-inline:nth-child(2) {
+        font-size: 30px;
+    }
+
+    .circle {
+        height: 0px;
+        width: 0px;
+    }
+
+    /* pages */
+    .pages-media {
+        height: 350px;
+
+    }
+
+
+    /* Services */
+    .services-content h2 {
+        width: 50%;
+    }
+
+    .bg-shop {
+        background-color: #f2f2f2;
+        padding-top: 100px;
+    }
+
+    .shop-spacing {
+        padding-left: 30px;
+    }
+
+    /* work showcase */
+    .workspace-content .img-workspace1 {
+        height: 300px;
+        /* width: 290px; */
+        border-radius: 5px;
+
+    }
+
+    .workspace-content .img-workspace2 {
+        height: 300px;
+
+        border-radius: 5px;
+    }
+
+    /* agency */
+    .agency-parent-position {
+
+        height: 450px;
+
+    }
+
+    /* FAQ */
+    .img-faq {
+        height: 330px;
+        width: 300px;
+    }
+}
+
+/* small device */
+@media (max-width:768px) {
+    .services-content h2 {
+        width: 70%;
+    }
+
+    .workspace-content .img-workspace1 {
+        height: 200px;
+        /* width: 290px; */
+        border-radius: 5px;
+
+    }
+
+    .workspace-content .img-workspace2 {
+        height: 200px;
+
+        border-radius: 5px;
+    }
+
+    .workspace1 p {
+        text-align: left;
+
+    }
+
+    .workspace1 h1 {
+        font-size: 40px;
+        text-align: left;
+        padding-right: 140px;
+    }
+
+    /* testimonial */
+    .test-spacing {
+        padding-left: 20px;
+    }
+
+}
+
+
+@media (min-width:993px) and (max-width:1150px) {
+    .shop-spacing {
+        padding-left: 50px;
+    }
+}
+@media (min-width:500px) and (max-width:567px) {
+    .img-news{
+        width: 400px;
+    }
+    .shop-spacing{
+        padding-left: 10px;
+    }
+}
+
+@media(max-width:500px) {
+
+    .media-head li a {
+        font-size: 8px;
+        padding-right: 0px;
+    }
+    .ht-workspace {
+        height: 55vh;
+    }
+    .workspace2 {
+
+        padding: 5px;
+
+
+    }
+    .workspace-content {
+        position: relative;
+        top: -86px;
+    }
+    .agency-img1 {
+        width: 130px;
+        height: 150px;
+    }
+
+    .agency-img2 {
+        width: 180px;
+        height: 210px;
+        top: 79px;
+    }
+
+    .agency-img3 {
+        width: 130px;
+        height: 150px;
+        /* position: relative; */
+        top: 236px;
+    }
+
+    .testimonial {
+        width: 300px;
+    }
+    .shop-spacing{
+        padding:10px;
+    }
+    .test-spacing {
+        padding-left: 20px;
+    }
+
+    .news-p-content {
+        position: relative;
+    }
+
+    .news-content {
+        position: absolute;
+        bottom: -33px;
+        left: 150px;
+    }
+    .img-contact{
+        width: 350px;
+    }
+    .img-thumb {
+        display: none;
+    }
+}
+@media(max-width:400px){
+    .news-content {
+        
+        position: relative;
+        bottom: 15px;
+        left: 8px;
+        
+    }
+    .agency-img1{
+        display: none;
+    }
+    .agency-img3 {
+        width: 130px;
+        height: 150px;
+        /* position: relative; */
+        top: 281px;
+        left: 84px;
+    }
+    .workspace-content .img-workspace1 {
+        display: none;
+
+    }
+    .workspace-content {
+        position: relative;
+        top: -16px;
+    }
+    .test-spacing{
+        padding: 10px;
+    }
+    
+}
